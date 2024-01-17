@@ -25,28 +25,55 @@ const rl = readline.createInterface({
 // });
 rl.question('Enter something to play FizzBuzz: ', (FizzerBuzzer) => {
     console.log('You entered:', FizzerBuzzer);
+
     userInputRunnerFizzer(FizzerBuzzer)
+    rl.close();
 
 });
+
 let Fizzy = []
 
-function userInputRunner(FizzBuzztester) {
-    for (let t = FizzBuzztester; t <= 1000; t++) {
-         if (FizzBuzztester%3 === 0)
-             console.log("FizzBuzzed10")
-        else{
-            console.log("NoFizzBuzz")
-         }
-        console.log(t)
-    }
-}
+// function userInputRunner(FizzBuzztester) {
+//     for (let t = FizzBuzztester; t <= 1000; t++) {
+//          if (FizzBuzztester%3 === 0)
+//              console.log("FizzBuzzed10")
+//         else{
+//             console.log("NoFizzBuzz")
+//          }
+//         console.log(t)
+//     }
+// }
 
 function  userInputRunnerFizzer(FizzerBuzzer){
     for (let i = FizzerBuzzer; i <= 200; i++ ){
-        if(FizzerBuzzer%3 ===0){
-            console.push(Fizzy[i])
+        if(i%3 === 0){
+            Fizzy.push(i)
+            console.log("Fizz")
         }
+        else{
+            console.log("No Fizz")
+        }
+
+
+        if(i%3 === 0 && i%5 === 0){
+            Fizzy.push(i)
+            console.log("FizzBuzz")
+        }
+        else{
+            console.log("No FizzBuzz")
+        }
+
+
+        if(i%5 === 0){
+            Fizzy.push(i)
+            console.log("Buzz")
+        }
+        else{
+            console.log("No Buzz")
+        }
+
     }
+    console.log(Fizzy)
 }
 
 Sprite = [1, "cat"]
