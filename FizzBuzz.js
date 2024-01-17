@@ -1,46 +1,62 @@
-// Example: Printing numbers from 1 to 5 using a for loop
-// for (let i = 1; i <= 5; i++) {
-//     console.log(i);
-// }
-console.log("This is a simple program to test to see if I can do fizzbuzz" +
-    "Please enter a number that bigger then lets say... 10")
-
-// Your solution goes here
-console.log("Cats can be the greatest of Warriors especially since they can" +
-    "play FizzBuzz")
+// // Example: Printing numbers from 1 to 5 using a for loop
+// // for (let i = 1; i <= 5; i++) {
+// //     console.log(i);
+// // }
+// console.log("This is a simple program to test to see if I can do fizzbuzz" +
+//     "Please enter a number that bigger then lets say... 10")
+//
+// // Your solution goes here
+// console.log("Cats can be the greatest of Warriors especially since they can" +
+//     "play FizzBuzz")
 const readline = require('readline');
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
-let userInput1
 
-rl.question('Enter something to play FizzBuzz: ', (userInput1) => {
-    console.log('You entered:', userInput1);
 
-    // Close the interface to end the program
-    rl.close();
-
-    userInputRunner(userInput1)
+// rl.question('Enter something to play FizzBuzz: ', (FizzBuzztester) => {
+//     console.log('You entered:', FizzBuzztester);
+//
+//     // Close the interface to end the program
+//     rl.close();
+//     userInputRunner(FizzBuzztester)
+//
+// });
+rl.question('Enter something to play FizzBuzz: ', (FizzerBuzzer) => {
+    console.log('You entered:', FizzerBuzzer);
+    userInputRunnerFizzer(FizzerBuzzer)
 
 });
+let Fizzy = []
 
-function userInputRunner(userInput1) {
-    for (let t = userInput1; t <= 1000; t++) {
-        // if ()
+function userInputRunner(FizzBuzztester) {
+    for (let t = FizzBuzztester; t <= 1000; t++) {
+         if (FizzBuzztester%3 === 0)
+             console.log("FizzBuzzed10")
+        else{
+            console.log("NoFizzBuzz")
+         }
         console.log(t)
     }
 }
+
+function  userInputRunnerFizzer(FizzerBuzzer){
+    for (let i = FizzerBuzzer; i <= 200; i++ ){
+        if(FizzerBuzzer%3 ===0){
+            console.push(Fizzy[i])
+        }
+    }
+}
+
 Sprite = [1, "cat"]
 console.log(Sprite)
 let Animal;
-Person = {
-    Animal =
+
+let Person = {
+    "Animal": "cat"
 
 }
-
-
-
 
 /*
 Given an integer n, return a string array answer (1-indexed) where:
