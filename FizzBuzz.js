@@ -62,8 +62,7 @@ function  userInputRunnerFizzer(FizzerBuzzer){
         else{
             console.log("No FizzBuzz")
         }
-
-
+        // you should add comments to all code
         if(i%5 === 0){
             Fizzy.push(i)
             console.log("Buzz")
