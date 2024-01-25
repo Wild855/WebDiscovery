@@ -80,7 +80,8 @@ console.log(Sprite)
 let Animal;
 
 let Person = {
-    "Animal": "cat"
+    "Animal": "cat",
+    "Age": 19
 
 }
 
