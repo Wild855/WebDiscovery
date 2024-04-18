@@ -35,3 +35,4 @@ function playGuessingGame(numToGuess, totalGuesses = 10) {
 // Example usage:
 // playGuessingGame(5);
 // playGuessingGame(7, 3);
+// playGuessingGame(7, 4);
