@@ -15,7 +15,7 @@ function playGuessingGame(numToGuess, totalGuesses = 10) {
             alert("Game canceled.");
             return 0;
         }
-
+// tester
         if (!isNaN(guess) && guess !== "") {
             guesses++;
 
