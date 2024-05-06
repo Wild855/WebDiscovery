@@ -2,6 +2,8 @@ function playGuessingGame(numToGuess, totalGuesses = 10) {
     let guesses = 0;
     let guess;
 // will this merge work?
+
+    
     while (guesses < totalGuesses) {
         if (guesses === 0) {
             guess = prompt("Enter a number between 1 and 100.");
