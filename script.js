@@ -27,7 +27,7 @@ function playGuessingGame(numToGuess, totalGuesses = 10) {
             alert("Please enter a number.");
         }
     }
-
+coe
     alert(`Sorry, you ran out of turns. The correct number was ${numToGuess}.`);
     return 0;
 }
@@ -36,3 +36,4 @@ function playGuessingGame(numToGuess, totalGuesses = 10) {
 // playGuessingGame(5);
 // playGuessingGame(7, 3);
 // playGuessingGame(7, 4);
+//play the g8es hga,e
