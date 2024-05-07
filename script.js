@@ -3,6 +3,7 @@ function playGuessingGame(numToGuess, totalGuesses = 10) {
     let guess;
 // will this merge work?
 
+
     
     while (guesses < totalGuesses) {
         if (guesses === 0) {
