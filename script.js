@@ -28,6 +28,9 @@ function playGuessingGame(numToGuess, totalGuesses = 10) {
             }
         } else {
             alert("Please enter a number.");
+            else{
+                console.log("cats")
+            }
         }
     }
 coe
@@ -39,4 +42,5 @@ coe
 // playGuessingGame(5);
 // playGuessingGame(7, 3);
 // playGuessingGame(7, 4);
+// playGuessingGame(7, 5);
 //play the g8es hga,e
