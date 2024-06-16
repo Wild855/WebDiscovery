@@ -31,6 +31,9 @@ function playGuessingGame(numToGuess, totalGuesses = 10) {
             else{
                 console.log("cats")
             }
+            else if {
+                console.log("dogs")
+            }
         }
     }
 coe
