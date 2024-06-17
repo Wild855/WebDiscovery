@@ -34,6 +34,9 @@ function playGuessingGame(numToGuess, totalGuesses = 10) {
             else if {
                 console.log("dogs")
             }
+            else if {
+                console.log("Fresh water fish")
+            }
         }
     }
 coe
